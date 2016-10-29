@@ -1,0 +1,26 @@
+{
+  "name": "contactlist-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UmamaheshMaxwell/contactlist-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UmamaheshMaxwell/contactlist-app/issues"
+  },
+  "homepage": "https://github.com/UmamaheshMaxwell/contactlist-app#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.5",
+    "nodemon": "^1.11.0"
+  }
+}
