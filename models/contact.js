@@ -16,7 +16,7 @@ var contactSchema = mongoose.Schema({
 	}
 });
 
-var Contact = module.exports = mongoose.model("contact", contactSchema);
+var Contact = module.exports = mongoose.model("contact", contactSchema, "contact");
 
 module.exports.getContacts = function(callback){
 	Contact.find(callback)

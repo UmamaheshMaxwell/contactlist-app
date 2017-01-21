@@ -5,7 +5,7 @@ var Contact = require("./models/contact")
 var bodyParser = require("body-parser");
 
 
-mongoose.connect("mongodb://localhost/contactlist", function(){
+mongoose.connect("mongodb://UmaMongo:UmaMongo@ds017175.mlab.com:17175/contactlist", function(){
 	console.log("Successfully connected to mongodb !!")
 });
 
